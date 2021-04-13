@@ -428,6 +428,101 @@ nav div.logo a img{
     nav div.media_button {
         display: block;
     }
+
+    p.result{
+      font-size: 2rem !important;
+      height: 29px !important;
+      line-height: 29px !important;
+    }
+
+    .intro-font{
+        font-size: 5rem !important;
+        margin-top: 35% !important;
+    }
+
+    .intro-font img {
+        width: 50%;
+    }
+
+    .partner-part{
+        height: 45px !important;
+        line-height: 56px;
+        width: 35% !important;
+        margin-left: 32% !important;
+
+    }
+
+    .ceo-part{
+        font-size: 1.5rem !important;
+        margin-top: 20%;
+        margin-bottom: 10% !important;
+        padding-left: 18% !important;
+    }
+
+    .exp-part{
+        font-size: 1.5rem !important;
+        padding-left: 18% !important;
+    }
+
+    .scroll-title{
+        width: 80%;
+    }
+
+    .hash-part{
+        font-size: 2.5rem !important;
+        text-align: center !important;
+    }
+
+    .jipsa-part {
+        font-size: 5rem !important;
+        text-align: center !important;
+    }
+
+    .jipsa-up-part {
+      font-size: 1.2rem;
+    }
+
+    .jipsa-up-bold {
+      font-size: 2rem!important;
+    }
+
+    .detail-part {
+        font-size: 1.4rem !important;
+        margin-top: 5% !important;
+        border-left: 0 !important;
+    }
+
+    .button-part {
+        margin-top: 0 !important;
+
+    }
+
+    .button-part img{
+        width: 30% !important;
+    }
+
+    .jipsa-button-style{
+        padding: 17px 35px !important;
+        margin-right: 15px !important;
+        font-size: 2rem !important;
+    }
+    .jipsa-button-style:hover{
+        background: #ffffff;
+        color: black;
+
+    }
+
+    #typed1{
+        font-size: 3rem;
+        color: #fff;
+
+    }
+
+    .typed-cursor{
+        color: #FFB100 !important;
+        font-size: 3rem;
+    }
+
 }
 
 
@@ -726,7 +821,7 @@ nav div.logo a img{
     font-size: 15px;
 }
 
-p.result,p.result1,p.result2{ display: inline-block; font-size:50px; height:50px; line-height: 50px; border-right: 3px solid #FFB100; padding-right: 2px; box-sizing: border-box; padding:0; margin:5px; }
+p.result,p.result1,p.result2{color: #fff; display: inline-block; font-size:50px; height:50px; line-height: 50px; border-right: 3px solid #FFB100; padding-right: 2px; box-sizing: border-box; padding:0; margin:5px; }
 p.cursor {height: 50px; animation: cursor 0.4s infinite;}
 
  @keyframes cursor{ 
@@ -748,6 +843,16 @@ padding: 0 10px;
 
 .intro-font{
     font-size: 9rem;
+    font-family: "designhouseBold";
+}
+
+
+
+.partner-part{
+    background: #FFB100; 
+    width: 37%; 
+    height: 90px; 
+    margin-left: 30%;
     font-family: "designhouseBold";
 }
 
