@@ -379,9 +379,8 @@ nav div.logo a img{
 
 @media screen and (max-width:768px) {
     .clearfix{
-    margin-left: 0;
-}
-
+        margin-left: 0;
+    }
     .navTrigger {
         display: block;
     }
@@ -465,7 +464,7 @@ nav div.logo a img{
     }
 
     .scroll-title{
-        width: 80%;
+        width: 100%;
     }
 
     .hash-part{
@@ -494,7 +493,6 @@ nav div.logo a img{
 
     .button-part {
         margin-top: 0 !important;
-
     }
 
     .button-part img{
@@ -506,23 +504,21 @@ nav div.logo a img{
         margin-right: 15px !important;
         font-size: 2rem !important;
     }
+
     .jipsa-button-style:hover{
         background: #ffffff;
         color: black;
-
     }
 
     #typed1{
         font-size: 3rem;
         color: #fff;
-
     }
 
     .typed-cursor{
         color: #FFB100 !important;
         font-size: 3rem;
     }
-
 }
 
 
