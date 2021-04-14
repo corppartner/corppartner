@@ -507,11 +507,11 @@ nav div.logo a img{
 
     
     .myContent{
-        height: 200px;
+        height: 200px !important;
     }
 
     .contact-content{
-      top: 50%;
+      top: 50% !important;
     }
 }
 
@@ -924,7 +924,7 @@ padding: 0 10px;
 }
 
 .contact-box{
-  background: rgb(248,249,250);
+  /*background: #F8F9FA;*/
   color: #FFB100;
 }
 
