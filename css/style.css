@@ -377,7 +377,159 @@ nav div.logo a img{
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
+    .clearfix{
+        margin-left: 0;
+    }
+    .navTrigger {
+        display: block;
+    }
+    nav div.logo {
+        margin-left: 15px;
+        width: 58% !important;
+        margin-top: 5px;
+    }
+    nav div.logo a img{
+        width: 25%;
+        float: left;
+        
+    }
+    nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+
+    }
+    nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+        margin-top: 28%;
+        
+        padding-top: 20% !important;
+    }
+    nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    nav div.media_button {
+        display: block;
+    }
+
+    p.result{
+      font-size: 5rem !important;
+      height: 29px !important;
+      line-height: 29px !important;
+    }
+
+    .intro-font{
+        font-size: 9rem !important;
+        margin-top: 0 !important;
+        line-height: 180% !important;
+    }
+
+    .intro-font img {
+        width: 90%;
+    }
+
+    .scroll-title{
+      font-size: 2.5rem !important;
+    }
+
+
+    .scroll-icon{
+      font-size: 2rem !important;
+    }
+
+    .partner-part{
+        height: 45px !important;
+        line-height: 56px;
+        width: 69% !important;
+        margin-left: 14% !important;
+
+    }
+
+    .ceo-part{
+        font-size: 1.6rem !important;
+        margin-top: 20%;
+        margin-bottom: 10% !important;
+        padding-left: 10% !important;
+    }
+
+    .exp-part{
+        font-size: 1.7rem !important;
+        padding-left: 10% !important;
+    }
+
+    .scroll-title{
+        width: 100%;
+    }
+
+    .hash-part{
+        font-size: 3.5rem !important;
+        text-align: center !important;
+    }
+
+    .jipsa-part {
+        font-size: 5rem !important;
+        text-align: center !important;
+    }
+
+    .jipsa-up-part {
+      font-size: 1.2rem;
+    }
+
+    .jipsa-up-bold {
+      font-size: 2rem!important;
+    }
+
+    .detail-part {
+        font-size: 2rem !important;
+        margin-top: 5% !important;
+        border-left: 0 !important;
+    }
+
+    .button-part {
+        margin-top: 0 !important;
+    }
+
+    .button-part img{
+        width: 30% !important;
+    }
+
+    .jipsa-button-style{
+        padding: 17px 35px !important;
+        margin-right: 15px !important;
+        font-size: 2rem !important;
+    }
+
+    
+    .myContent{
+        height: 300px !important;
+    }
+
+    .contact-content{
+      top: 32% !important;
+    }
+}
+
+@media screen and (max-width:760px) {
     .clearfix{
         margin-left: 0;
     }
@@ -388,9 +540,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 30%;
-        float: left;
-        margin-top: 10px;
+        width: 17%;
     }
     nav div.main_list {
         width: 100%;
@@ -435,19 +585,30 @@ nav div.logo a img{
     }
 
     .intro-font{
-        font-size: 5rem !important;
-        margin-top: 35% !important;
+        font-size: 4.5rem !important;
+        margin-top: 7% !important;
     }
 
+    
+
     .intro-font img {
-        width: 50%;
+        width: 100%;
+    }
+
+    .scroll-title{
+      font-size: 1.5rem !important;
+    }
+
+
+    .scroll-icon{
+      font-size: 1.5rem !important;
     }
 
     .partner-part{
         height: 45px !important;
         line-height: 56px;
-        width: 35% !important;
-        margin-left: 32% !important;
+        width: 49% !important;
+        margin-left: 24% !important;
 
     }
 
@@ -455,12 +616,160 @@ nav div.logo a img{
         font-size: 1.5rem !important;
         margin-top: 20%;
         margin-bottom: 10% !important;
-        padding-left: 18% !important;
+        padding-left: 12% !important;
     }
 
     .exp-part{
         font-size: 1.5rem !important;
-        padding-left: 18% !important;
+        padding-left: 12% !important;
+    }
+
+    .scroll-title{
+        width: 100%;
+    }
+
+    .hash-part{
+        font-size: 2rem !important;
+        text-align: center !important;
+    }
+
+    .jipsa-part {
+        font-size: 3rem !important;
+        text-align: center !important;
+    }
+
+    .jipsa-up-part {
+      font-size: 1rem;
+    }
+
+    .jipsa-up-bold {
+      font-size: 1.2rem!important;
+    }
+
+    .detail-part {
+        font-size: 1.6rem !important;
+        margin-top: 5% !important;
+        border-left: 0 !important;
+    }
+
+    .button-part {
+        margin-top: 0 !important;
+    }
+
+    .button-part img{
+        width: 30% !important;
+    }
+
+    .jipsa-button-style{
+        padding: 15px 23px !important;
+        margin-right: 15px !important;
+        font-size: 2rem !important;
+    }
+
+    
+    .myContent{
+        height: 200px !important;
+    }
+
+    .contact-content{
+      top: 50% !important;
+    }
+}
+
+
+@media screen and (max-width:710px) {
+    .clearfix{
+        margin-left: 0;
+    }
+    .navTrigger {
+        display: block;
+    }
+    nav div.logo {
+        margin-left: 15px;
+    }
+    nav div.logo a img{
+        width: 30%;
+        float: left;
+        margin-top: 5px;
+    }
+    nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+
+    }
+    nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+        margin-top: 14%;
+    }
+    nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    nav div.media_button {
+        display: block;
+    }
+
+    p.result{
+      font-size: 2rem !important;
+      height: 29px !important;
+      line-height: 29px !important;
+    }
+
+    .intro-font{
+        font-size: 4rem !important;
+        margin-top: 18% !important;
+    }
+
+    .intro-font img {
+        width: 40%;
+    }
+
+    .scroll-title{
+      font-size: 1.5rem !important;
+    }
+
+
+    .scroll-icon{
+      font-size: 1.5rem !important;
+    }
+
+    .partner-part{
+        height: 45px !important;
+        line-height: 56px;
+        width: 33% !important;
+        margin-left: 33% !important;
+
+    }
+
+    .ceo-part{
+        font-size: 1.5rem !important;
+        margin-top: 20%;
+        margin-bottom: 10% !important;
+        padding-left: 12% !important;
+    }
+
+    .exp-part{
+        font-size: 1.5rem !important;
+        padding-left: 12% !important;
     }
 
     .scroll-title{
@@ -482,7 +791,7 @@ nav div.logo a img{
     }
 
     .jipsa-up-bold {
-      font-size: 2rem!important;
+      font-size: 1.8rem!important;
     }
 
     .detail-part {
@@ -496,11 +805,11 @@ nav div.logo a img{
     }
 
     .button-part img{
-        width: 30% !important;
+        width: 25% !important;
     }
 
     .jipsa-button-style{
-        padding: 17px 35px !important;
+        padding: 15px 23px !important;
         margin-right: 15px !important;
         font-size: 2rem !important;
     }
