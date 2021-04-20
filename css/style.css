@@ -33,7 +33,33 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GmarketSansTTFBold";
+  src:url("../font/GmarketSansTTFBold.woff") format("woff"),
+    url("../font/GmarketSansTTFBold.ttf") format("truetype");
+      font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "GmarketSansTTFLight";
+  src:url("../font/GmarketSansTTFLight.woff") format("woff"),
+    url("../font/GmarketSansTTFLight.ttf") format("truetype");
+      font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "GmarketSansTTFMedium";
+  src:url("../font/GmarketSansTTFMedium.woff") format("woff"),
+    url("../font/GmarketSansTTFMedium.ttf") format("truetype");
+      font-weight: normal;
+  font-style: normal;
+}
 
 
 [class^="icon-"]:after,
@@ -294,11 +320,11 @@ nav {
 
  div.logo {
     float: left;
-    width: 60%;
+    width: 50%;
     height: auto;
     
    left: 0;
-    top: 0;
+    top: 5px;
     position: absolute;
 }
 
@@ -436,10 +462,11 @@ nav div.logo a img{
       font-size: 5rem !important;
       height: 29px !important;
       line-height: 29px !important;
+
     }
 
     .intro-font{
-        font-size: 9rem !important;
+        font-size: 8rem !important;
         margin-top: 0 !important;
         line-height: 180% !important;
     }
@@ -461,7 +488,7 @@ nav div.logo a img{
         height: 45px !important;
         line-height: 56px;
         width: 69% !important;
-        margin-left: 14% !important;
+        margin-left: 15% !important;
 
     }
 
@@ -473,7 +500,7 @@ nav div.logo a img{
     }
 
     .exp-part{
-        font-size: 1.7rem !important;
+        font-size: 1.9rem !important;
         padding-left: 10% !important;
     }
 
@@ -582,6 +609,7 @@ nav div.logo a img{
       font-size: 2rem !important;
       height: 29px !important;
       line-height: 29px !important;
+      font-family: 'InkLipquid';
     }
 
     .intro-font{
@@ -607,8 +635,8 @@ nav div.logo a img{
     .partner-part{
         height: 45px !important;
         line-height: 56px;
-        width: 49% !important;
-        margin-left: 24% !important;
+        width: 54% !important;
+        margin-left: 22% !important;
 
     }
 
@@ -755,8 +783,8 @@ nav div.logo a img{
     .partner-part{
         height: 45px !important;
         line-height: 56px;
-        width: 33% !important;
-        margin-left: 33% !important;
+        width: 37% !important;
+        margin-left: 31% !important;
 
     }
 
@@ -1124,7 +1152,7 @@ nav div.logo a img{
     font-size: 15px;
 }
 
-p.result,p.result1,p.result2{color: #fff; display: inline-block; font-size:50px; height:50px; line-height: 50px; border-right: 3px solid #FFB100; padding-right: 2px; box-sizing: border-box; padding:0; margin:5px; animation-iteration-count: infinite;}
+p.result,p.result1,p.result2{color: #fff; display: inline-block; font-size:50px; height:50px; line-height: 50px; border-right: 3px solid #FFB100; padding-right: 2px; box-sizing: border-box; padding:0; margin:5px; animation-iteration-count: infinite;font-family: 'InkLipquid';}
 p.cursor {height: 50px; animation: cursor 0.4s infinite;}
 
  @keyframes cursor{ 
@@ -1146,17 +1174,17 @@ padding: 0 10px;
 
 .intro-font{
     font-size: 9rem;
-    font-family: "designhouseBold";
+    font-family: "GmarketSansTTFBold";
 }
 
 
 
 .partner-part{
-    
-    width: 37%; 
+    margin-bottom: 7%;
+    width: 42%; 
     height: 90px; 
-    margin-left: 30%;
-    font-family: "designhouseBold";
+    margin-left: 29%;
+    font-family: "GmarketSansTTFBold";
     background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFB100 40%);
 }
 
@@ -1166,12 +1194,14 @@ padding: 0 10px;
     margin-bottom: 20%;
     text-align: left;
     padding-left: 10%;
+    font-family: "GmarketSansTTFMedium";
 }
 
 .exp-part{
     font-size: 3rem;
     text-align: left;
     padding-left: 10%;
+    font-family: "GmarketSansTTFLight";
 }
 
 .scroll-title{
@@ -1192,6 +1222,11 @@ padding: 0 10px;
 .jipsa-part {
     font-size: 7rem;
     text-align: left;
+
+}
+
+.jipsa-part span{
+  font-family: "GmarketSansTTFBold";
 }
 
 .detail-part {
