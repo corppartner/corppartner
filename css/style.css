@@ -341,6 +341,7 @@ nav {
  div.main_list {
     height: 65px;
     float: right;
+    width: 110%;
 }
 
  div.main_list ul {
