@@ -393,7 +393,7 @@ nav {
 }
 
 nav div.logo a img{
-        float: left;;
+        float: left;
         width: 13%;
     }
 /* Media qurey section */
@@ -1243,6 +1243,11 @@ padding: 0 10px;
     font-size: 2.5rem;
     color: #ffffff;
 }
+
+.button-part img {
+    width: 30%;
+}
+
 
 .jipsa-button-style{
     border: 1px solid #ffffff;
