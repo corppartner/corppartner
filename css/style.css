@@ -1066,6 +1066,8 @@ nav div.logo a img{
     /* background-image: url('../images/meeting.png'); */
     /* background-image: url('../images/startup.png'); */
     background-image: url('../images/paper.png');
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 #section0 h2, #section0 h3 {
