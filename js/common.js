@@ -59,17 +59,15 @@ $('#fullpage').fullpage({
 
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
-    console.log("Clicked menu");
     $("#mainListDiv").toggleClass("show_list");
     $("#mainListDiv").fadeIn();
 
 });
 
 $('#fullpage').click(function () {
-  $('.navTrigger').toggleClass('active');
-  $("#mainListDiv").toggleClass("show_list");
+  $('.navTrigger').removeClass('active');
+  $("#mainListDiv").removeClass("show_list");
   $("#mainListDiv").fadeOut();
-
 });
 
 
