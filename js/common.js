@@ -67,7 +67,7 @@ $('.navTrigger').click(function () {
 $('#fullpage').click(function () {
   $('.navTrigger').removeClass('active');
   $("#mainListDiv").removeClass("show_list");
-  $("#mainListDiv").fadeOut();
+  $("#mainListDiv").fadeIn();
 });
 
 
