@@ -310,12 +310,12 @@ h3 {
 /* Navbar section */
 nav {
     width: 100%;
-    height: 50px;    
+    height: 78px;    
     line-height: 65px;
     text-align: center;
 	position: fixed;	
 	z-index: 999;
-    height: 9%;
+    /* height: 9%; */
 }
 
  div.logo {
@@ -1074,9 +1074,7 @@ nav div.logo a img{
 	color: #fff;
 }
 
-#section1{
-	background-image: url(../images/bg2.jpg);
-}
+
 
 .wrapper {
   height: 24vh;
@@ -1084,8 +1082,33 @@ nav div.logo a img{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column-reverse;
   z-index: 999;
+  margin-top: auto;
 }
+
+.wrapper-title {
+    height: 24vh;
+    /*This part is important for centering*/
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    /* Center vertically */
+    align-items: center;
+
+    /*Center horizontaly */
+    justify-content: center;
+
+    /*Center horizontaly ie */
+    -ms-flex-pack: center;
+
+     min-height: 220px; 
+     /* height:100px; */
+    z-index: 999;
+    width: 100%;
+    
+  }
 
 /*.typing-demo {
   width: 48ch;
@@ -1113,10 +1136,21 @@ nav div.logo a img{
   50% { border-color: #FFB100 }
 }
 .fourth-text {
-
-  font-size: 3.4rem;
-  position: absolute;
   
+  font-size: 3.4rem;
+  /* position: absolute; */
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  /* Center vertically */
+  align-items: center;
+
+  /*Center horizontaly */
+  justify-content: center;
+
+  /*Center horizontaly ie */
+  -ms-flex-pack: center;
   opacity: 0;
   
   animation-name: fadeInOut;
@@ -1187,15 +1221,15 @@ padding: 0 10px;
 
 .partner-part{
     margin-bottom: 7%;
-    width: 42%; 
+    width: 47%; 
     height: 90px; 
-    margin-left: 29%;
+    margin-left: 26%;
     font-family: "GmarketSansTTFBold";
     background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFB100 40%);
 }
 
 .ceo-part{
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-weight: bold;   
     margin-bottom: 20%;
     text-align: left;
@@ -1245,7 +1279,7 @@ padding: 0 10px;
 }
 
 .button-part {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: #ffffff;
 }
 
