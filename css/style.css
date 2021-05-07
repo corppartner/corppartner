@@ -1062,7 +1062,10 @@ nav div.logo a img{
 	}
 #section0{
 	/*background-image: url('https://uploads-ssl.webflow.com/5a7b28c9d44bdc00013c9d36/5a7b28c9d44bdc00013c9d6e_globo%202.jpg');*/
-    background-image: url('../images/network1.jpg');
+    /* background-image: url('../images/network1.jpg'); */
+    /* background-image: url('../images/meeting.png'); */
+    /* background-image: url('../images/startup.png'); */
+    background-image: url('../images/paper.png');
 }
 
 #section0 h2, #section0 h3 {

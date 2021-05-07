@@ -65,6 +65,14 @@ $('.navTrigger').click(function () {
 
 });
 
+$('#fullpage').click(function () {
+  $('.navTrigger').toggleClass('active');
+  $("#mainListDiv").toggleClass("show_list");
+  $("#mainListDiv").fadeOut();
+
+});
+
+
 // https://westzero.tistory.com/112
     String.prototype.toKorChars = function() { 
         var cCho = [ 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ' ], 
@@ -113,7 +121,7 @@ $('.navTrigger').click(function () {
     }
 
 //타이핑할 문장
-    var result  = "상생을 꿈꾸다.";
+    var result  = "상생을 꿈꾸다";
     var typeing1=[];
     result = result.split(''); // 한글자씩자름
 
@@ -153,6 +161,7 @@ $('.navTrigger').click(function () {
                 j=0;
             }
         } else{
+          document.getElementsByClassName("result")[0].style.border="0";
             clearInterval(inter);
         }
     }
@@ -254,4 +263,6 @@ $(function(){
     loop: true,
     showCursor: true
   });
+
+
 });
