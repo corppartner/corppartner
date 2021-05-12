@@ -394,7 +394,7 @@ nav {
 
 nav div.logo a img{
         float: left;
-        width: 13%;
+        width: 130px;
     }
 /* Media qurey section */
 
@@ -414,10 +414,10 @@ nav div.logo a img{
     nav div.logo {
         margin-left: 15px;
         width: 58% !important;
-        margin-top: 5px;
+        
     }
     nav div.logo a img{
-        width: 25%;
+        width: 130px;
         float: left;
         
     }
@@ -568,7 +568,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 17%;
+        width: 130px;
     }
     nav div.main_list {
         width: 100%;
@@ -590,7 +590,7 @@ nav div.logo a img{
         background-color: #111;
         /*same background color of navbar*/
         background-position: center top;
-        margin-top: 14%;
+        margin-top: 29%;
     }
     nav div.main_list ul li {
         width: 100%;
@@ -717,9 +717,9 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 30%;
+        width: 130px;
         float: left;
-        margin-top: 5px;
+        
     }
     nav div.main_list {
         width: 100%;
@@ -741,7 +741,7 @@ nav div.logo a img{
         background-color: #111;
         /*same background color of navbar*/
         background-position: center top;
-        margin-top: 14%;
+        margin-top: 29%;
     }
     nav div.main_list ul li {
         width: 100%;

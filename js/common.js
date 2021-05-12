@@ -70,6 +70,11 @@ $('#fullpage').click(function () {
   $("#mainListDiv").fadeIn();
 });
 
+$('#mainListDiv').click(function () {
+  $('.navTrigger').removeClass('active');
+  $("#mainListDiv").removeClass("show_list");
+  $("#mainListDiv").fadeIn();
+});
 
 // https://westzero.tistory.com/112
     String.prototype.toKorChars = function() { 
