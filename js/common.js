@@ -75,7 +75,8 @@ $('#mainListDiv').click(function () {
   $("#mainListDiv").removeClass("show_list");
   $("#mainListDiv").fadeIn();
 });
-$(function(){
+// $(function(){
+  window.onload = function () {
 // https://westzero.tistory.com/112
     String.prototype.toKorChars = function() { 
         var cCho = [ 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ' ], 
@@ -257,13 +258,14 @@ $(function(){
 
 
 
-  var typed1 = new Typed('#typed1', {
-    strings: ['상생을 꿈꾸다'],
-    typeSpeed: 300,
-    startDelay: 2000,
-    backDelay: 7000,
-    backSpeed: 300,
-    loop: true,
-    showCursor: true
-  });
-});
+  // var typed1 = new Typed('#typed1', {
+  //   strings: ['상생을 꿈꾸다'],
+  //   typeSpeed: 300,
+  //   startDelay: 2000,
+  //   backDelay: 7000,
+  //   backSpeed: 300,
+  //   loop: true,
+  //   showCursor: true
+  // });
+// });
+}
