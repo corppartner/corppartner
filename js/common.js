@@ -1,4 +1,4 @@
-$(function(){
+
 // variables
 var $header_top = $('.header-top');
 var $nav = $('nav');
@@ -75,7 +75,7 @@ $('#mainListDiv').click(function () {
   $("#mainListDiv").removeClass("show_list");
   $("#mainListDiv").fadeIn();
 });
-
+$(function(){
 // https://westzero.tistory.com/112
     String.prototype.toKorChars = function() { 
         var cCho = [ 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ' ], 
