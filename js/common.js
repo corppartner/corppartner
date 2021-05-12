@@ -1,4 +1,4 @@
-
+$(function(){
 // variables
 var $header_top = $('.header-top');
 var $nav = $('nav');
@@ -256,7 +256,7 @@ $('#mainListDiv').click(function () {
 //     }
 
 
-$(function(){
+
   var typed1 = new Typed('#typed1', {
     strings: ['상생을 꿈꾸다'],
     typeSpeed: 300,
@@ -266,6 +266,4 @@ $(function(){
     loop: true,
     showCursor: true
   });
-
-
 });
