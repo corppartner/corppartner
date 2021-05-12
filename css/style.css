@@ -441,9 +441,7 @@ nav div.logo a img{
         background-color: #111;
         /*same background color of navbar*/
         background-position: center top;
-        margin-top: 28%;
-        
-        padding-top: 20% !important;
+        margin-top: 52px;
     }
     nav div.main_list ul li {
         width: 100%;
@@ -590,7 +588,7 @@ nav div.logo a img{
         background-color: #111;
         /*same background color of navbar*/
         background-position: center top;
-        margin-top: 29%;
+        margin-top: 52px;
     }
     nav div.main_list ul li {
         width: 100%;
@@ -741,7 +739,7 @@ nav div.logo a img{
         background-color: #111;
         /*same background color of navbar*/
         background-position: center top;
-        margin-top: 29%;
+        margin-top: 52px;
     }
     nav div.main_list ul li {
         width: 100%;
@@ -1135,8 +1133,11 @@ nav div.logo a img{
   from, to { border-color: transparent }
   50% { border-color: #FFB100 }
 }
+.preparation{
+    opacity: 1 ;
+}
 .fourth-text {
-  
+    opacity: 0;
   font-size: 3.4rem;
   /* position: absolute; */
   display: -ms-flexbox;
@@ -1151,7 +1152,7 @@ nav div.logo a img{
 
   /*Center horizontaly ie */
   -ms-flex-pack: center;
-  opacity: 0;
+  
   
   animation-name: fadeInOut;
   animation-delay: 3s;

@@ -77,6 +77,7 @@ $('#mainListDiv').click(function () {
 });
 // $(function(){
   window.onload = function () {
+    document.documentElement.classList.remove('preparation');
 // https://westzero.tistory.com/112
     String.prototype.toKorChars = function() { 
         var cCho = [ 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ' ], 
