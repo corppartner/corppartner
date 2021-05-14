@@ -23,12 +23,19 @@ $('#fullpage').fullpage({
   anchors: ['home', 'intro', 'service', 'jipsa-detail', 'contact'],
   menu: '#menu',
 
-  afterLoad: function(anchorLink, index) {
+  afterLoad: function(origin, destination, direction) {
     $header_top.css('background', 'rgba(0, 47, 77, .3)');
     $nav.css('background', 'rgba(0, 0, 0, 1)');
-    if (index == 5) {
+    if (origin.index == 5) {
         $('#fp-nav').hide();
-      }
+      } 
+    //   if(destination === 2) {
+    //     alert("section1");
+    //     document.querySelector('#section1').querySelector('.partner-part').style.left = 0 + 'px';
+    //   }  else if(origin && origin.index == 1){
+    //     alert("section1");
+        
+    // }
   },
 
   onLeave: function(index, nextIndex, direction) {
