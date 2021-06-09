@@ -131,9 +131,9 @@ a:hover, a:focus{
 
 @media screen and (max-width:710px) {
     .title {
-        margin-bottom: 30px;
+        margin-bottom: 0;
         font-weight: 400;
-        margin-top: 50px;
+        margin-top: 10px;
         font-size: 24px;
     }
 
@@ -144,5 +144,9 @@ a:hover, a:focus{
     .panel-heading a{
         font-size: 16px;
         padding-right: 20px;
+    }
+
+    .home-img {
+        width: 20%;
     }
 }
